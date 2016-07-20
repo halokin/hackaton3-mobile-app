@@ -1,0 +1,22 @@
+<ion-view view-title="Sign In" align-title="left">
+  <ion-content class="login-background">
+    <form name="formCreate" ng-submit="signup()">
+
+      <div class="padding">
+        <div class="list">
+          <ion-md-input placeholder="Your name" highlight-color="positive" type="text" ng-model="user.name"></ion-md-input>
+
+          <ion-md-input placeholder="Your password" highlight-color="positive" type="password" ng-model="user.password"></ion-md-input>
+
+          <ion-md-input placeholder="Confirm your password" highlight-color="positive" type="password" ng-model="confirm_password"></ion-md-input>
+
+        </div>
+
+        <button type="submit" class="button button-full button-positive ink">Create</button>
+        <a class="btn btn-danger" href="#/">Cancel</a>
+
+      </div>
+
+    </form>
+  </ion-content>
+</ion-view>

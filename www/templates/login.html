@@ -1,0 +1,22 @@
+<ion-view view-title="Login" align-title="left">
+  <ion-content class="login-background">
+    <div class="hero no-header flat">
+      <div class="content">
+        <h1 class="dark">Lagun artean</h1>
+      </div>
+    </div>
+    <form ng-submit="connect()">
+      <div class="padding">
+        <div class="list">
+          <ion-md-input placeholder="Username" highlight-color="positive" type="text" ng-model="user.name"></ion-md-input>
+          <ion-md-input placeholder="Password" highlight-color="positive" type="password" ng-model="user.password"></ion-md-input>
+        </div>
+        <button type="submit" class="button button-full button-positive ink">Log in</button>
+        <div class="padding center-align">
+          <a class="subscribe" href="#/app/signup" >s'inscrire</a>
+        </div>
+      </div>
+    </form>
+  </div>
+</ion-content>
+</ion-view>
